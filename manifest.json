@@ -1,0 +1,17 @@
+{
+  "name": "whois",
+  "version": "1.1",
+  "description": "just whois",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "https://jsonwhois.com/"
+  ],
+  "browser_action": {
+    "default_title": "whois",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

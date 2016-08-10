@@ -1,0 +1,43 @@
+{
+  "disclaimer": null,
+  "domain": "google.by",
+  "domain_id": null,
+  "status": "registered",
+  "available?": false,
+  "registered?": true,
+  "created_on": "2004-05-14T00:00:00.000+00:00",
+  "updated_on": "2016-07-20T00:00:00.000+00:00",
+  "expires_on": "2017-02-09T00:00:00.000+00:00",
+  "registrar": {
+    "id": "Open Contact, Ltd",
+    "name": "Open Contact, Ltd",
+    "organization": "Open Contact, Ltd",
+    "url": null
+  },
+  "registrant_contacts": null,
+  "admin_contacts": null,
+  "technical_contacts": null,
+  "nameservers": [
+    {
+      "name": "ns1.google.com",
+      "ipv4": null,
+      "ipv6": null
+    },
+    {
+      "name": "ns2.google.com",
+      "ipv4": null,
+      "ipv6": null
+    },
+    {
+      "name": "ns3.google.com",
+      "ipv4": null,
+      "ipv6": null
+    },
+    {
+      "name": "ns4.google.com",
+      "ipv4": null,
+      "ipv6": null
+    }
+  ],
+  "raw": "Domain Name: google.by\nDomain Name Administrator: HIDDEN! Details are available at http://www.cctld.by/whois\nRegistrar: Open Contact, Ltd\nName Server: ns1.google.com\nName Server: ns2.google.com\nName Server: ns3.google.com\nName Server: ns4.google.com\nUpdated Date: 2016-07-20\nCreation Date: 2004-05-14\nExpiration Date: 2017-02-09\n\n-------------------------------------------\nService provided by Reliable Software, Inc.\n\n"
+}

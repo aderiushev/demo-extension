@@ -1,0 +1,7 @@
+{
+  "name": "whois",
+  "version": "0.0.1",
+  "dependencies": {
+    "json-formatter-js": "^1.1.0"
+  }
+}
