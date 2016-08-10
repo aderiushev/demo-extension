@@ -22,11 +22,16 @@ var handleStateChange = function() {
     }
 }
 
+var getTldFromUrl = function(url) {
+    var url = new URL(url);
+    var hostParts = url.host.split('.');
+    return [hostParts[hostParts.length-2], hostParts[hostParts.length-1]].join('.');
+}
+
 var getWhoisData = function(url) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = handleStateChange.bind(xhr);
-    var url = new URL(url);
-    var domain = url.protocol + '//' + url.host;
+    var domain = getTldFromUrl(url);
     xhr.open('GET', 'https://jsonwhois.com/api/v1/whois?domain=' + domain, true);
     xhr.setRequestHeader('Accept', 'application/json');
     xhr.setRequestHeader('Authorization', 'Token token=' + 'b2a0b4557211bacc425edcf47687ac36');
