@@ -10,8 +10,16 @@
   ],
   "browser_action": {
     "default_title": "whois",
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_icon": "icon.png"
   },
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "web_accessible_resources": [
+    "index.html"
+  ],
   "manifest_version": 2
 }

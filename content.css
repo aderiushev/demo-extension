@@ -1,0 +1,12 @@
+#whois-iframe {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: beige;
+    z-index: 9999;
+    padding: 0;
+    margin: 0;
+    border: 1px solid gray;
+    height: 400px;
+    width: 300px;
+}
